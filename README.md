@@ -12,15 +12,7 @@ You need the following software to run the code:
 2. [Hardoon KCCA code package.](http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz) (4.3 KB)
 3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) (229 MB)
 
-In particular you will need the following MATLAB function from Hardoon's package:
-
-1. centerTrainTestKernels.m
-2. gsd.m
-3. kcanonca_reg_ver2.m
-4. normalisekcca.m
-5. project.m
-
-Crate a directory named _"kcca_package"_ and put these files inside.
+_The code is automatically attempting to download third-party libraries and data._
 
 
 
