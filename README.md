@@ -10,6 +10,21 @@ You need the following software to run the code:
 2. [Hardoon KCCA code package.](http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz) (4.3 KB)
 3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) (229 MB)
 
+
+## Demo Example
+To run our code just run:
+	%this will run the experiment
+	demoKCCA
+	
+You can change the dataset and enable CCA comparison with the following parameters:
+
+  %%Load data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  datasetname='VIPeR'; %VIPeR %PRID
+  ccaON = 0; %% can be turned off since it is slow.
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 ## Citation
 
 Please cite our paper with the following bibtex if you use our dataset:
