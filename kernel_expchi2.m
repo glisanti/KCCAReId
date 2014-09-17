@@ -1,6 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% (c) Copyright 2012-14  Anonymous Authors ICDSC14 #23
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % KERNEL_EXPCHI2: Compute an Exponential Kernel using Chi-Square
 % distances.
 %
@@ -11,6 +8,9 @@
 %         distances among the training examples)
 % Output: D is the Kernel matrix; md is the mean of the distances among the
 %         training examples
+% 
+% written by Lamberto Ballan (lamberto.ballan@unifi.it)
+% University of Florence, 11/05/2013
 
 function [D,md] = kernel_expchi2(X,Y,omega)
     
