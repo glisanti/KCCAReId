@@ -81,6 +81,8 @@ for nt=1:nTrial
       disp('>Computing CCA on the training set...');
       %% Computing CCA  on the training set
       [Wx_cca Wy_cca r] = cca(train_b,train_a,kapa_cca);
+      Wx_cca = real(Wx_cca);
+      Wy_cca = real(Wy_cca);
    end
    
    disp('>Computing KCCA  on the training set...');
