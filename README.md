@@ -20,6 +20,18 @@ author = {Lisanti, Giuseppe and Masi, Iacopo and {Del Bimbo}, Alberto},
 title = {Matching People across Camera Views using Kernel Canonical Correlation Analysis},
 booktitle = {Eighth ACM/IEEE International Conference on Distributed Smart Cameras},
 year = {2014}, }
+``` 
+
+and Hardoon's paper:
+
+``` latex
+@article{lisanti:icdsc14,
+author = {Hardoon, David and Szedmak, Sandor and {Shawe-Taylor}, John},
+title = {Canonical Correlation Analysis: An Overview with Application to Learning Methods},
+booktitle = {Neural Computation},
+volume = {Volume 16 (12)}
+pages = {2639--2664}
+year = {2004}, }
 ```
 
 
