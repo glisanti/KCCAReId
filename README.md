@@ -7,8 +7,8 @@ We provided the implementation of the paper Giuseppe Lisanti , Iacopo Masi , Alb
 You need the following software to run the code:
 
 1. MATLAB (Windows, Unix version is the same)
-2. [Hardoon KCCA code package.](http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz) 4.3 KB
-3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) 229 MB
+2. [Hardoon KCCA code package.](http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz) (4.3 KB)
+3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) (229 MB)
 
 ## Citation
 
