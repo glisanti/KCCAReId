@@ -14,7 +14,7 @@ markers = repmat('+o*.xsd^v<>ph',1,200);
 
 %% Load data%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 datasetname='VIPeR'; %VIPeR %PRID
-ccaON = 0; %% can be turned off since it is slow.
+ccaON = 1; %% can be turned off since it is slow.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 if strcmp('VIPeR',datasetname)
@@ -77,8 +77,6 @@ for nt=1:nTrial
       disp('>Computing CCA on the training set...');
       %% Computing CCA  on the training set
       [Wx_cca Wy_cca r] = cca(train_b,train_a,kapa_cca);
-      Wx_cca = real(Wx_cca);
-      Wy_cca = real(Wy_cca);
    end
    
    disp('>Computing KCCA  on the training set...');
@@ -94,24 +92,7 @@ for nt=1:nTrial
    end
    test_b_ker_proj = test_b_ker*Wx;
    test_a_ker_proj = test_a_ker*Wy;
-   
-   %%projecting train
-   train_b_ker_proj = train_b_ker*Wy;
-   train_a_ker_proj = train_a_ker*Wy;
-   
-   myscore = zeros(size(test_b_ker_proj,1),10);
-   allTrain = [train_a_ker_proj; train_b_ker_proj];
-   disp('>Computing dual score...');
-   for p=1:size(test_b_ker_proj,1)
-      finalScore = score_kcca(:,p);
-      [sortScore sortIndex] = sort(finalScore);
-      for g=1:10
-         tic
-         myscore(p,g) = dualSimiliarityReid(test_b_ker_proj(p,:),test_a_ker_proj(sortIndex(g),:),allTrain );
-         toc
-      end
-   end
-   
+
    disp('>Computing distances...');
    %% Compute distances
    if ccaON
