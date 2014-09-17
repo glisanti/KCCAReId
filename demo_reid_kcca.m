@@ -4,6 +4,10 @@
 % Iacopo Masi <iacopo.masi@unifi.it>.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% Attempting to automatically download third-party libraries
+getFiles
+%%%%%%%%%%%%%%%%%%%
+
 clear;clc; close all force;
 addpath('kcca_package');
 
