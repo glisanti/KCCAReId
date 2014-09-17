@@ -8,6 +8,7 @@ You need the following software to run the code:
 
 1. MATLAB (Windows, Unix version is OK)
 2. Hardoon KCCA code package (http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz)
+3. Descriptors computed as described in the paper for the VIPeR and PRID dataset. (http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip)
 
 ## Citation
 
