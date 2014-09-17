@@ -18,10 +18,9 @@ To run our code just run:
 	
 You can change the dataset and enable CCA comparison with the following parameters:
 
-  %%Load data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  datasetname='VIPeR'; %VIPeR %PRID
-  ccaON = 0; %% can be turned off since it is slow.
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  	datasetname='VIPeR'; %VIPeR %PRID
+  	ccaON = 0; %% can be turned off since it is slow.
+
 
 
 
