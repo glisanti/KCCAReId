@@ -25,7 +25,7 @@ year = {2014}, }
 and Hardoon's paper:
 
 ``` latex
-@article{lisanti:icdsc14,
+@article{hardoon:cca,
 author = {Hardoon, David and Szedmak, Sandor and {Shawe-Taylor}, John},
 title = {Canonical Correlation Analysis: An Overview with Application to Learning Methods},
 booktitle = {Neural Computation},
