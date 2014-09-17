@@ -7,7 +7,7 @@ We provided the implementation of the paper Giuseppe Lisanti , Iacopo Masi , Alb
 
 Data
 
-http://www.micc.unifi.it/lisanti/downloads/cvLisanti-en.pdf
+http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip
 
 KCCA
 
