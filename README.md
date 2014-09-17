@@ -4,13 +4,10 @@ KCCA-ReId
 We provided the implementation of the paper Giuseppe Lisanti , Iacopo Masi , Alberto Del Bimbo, "Matching People across Camera Views using Kernel Canonical Correlation Analysis”, Eighth ACM/IEEE International Conference on Distributed Smart Cameras, 2014.
 
 ##Requirements 
+You need the following software to run the code:
 
-Data
-
-http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip
-
-KCCA
-
+1. MATLAB (Windows, Unix version is OK)
+2. Hardoon KCCA code package (http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz)
 
 ## Citation
 
