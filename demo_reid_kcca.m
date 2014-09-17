@@ -2,6 +2,15 @@
 % (c) Copyright 2013-14  MICC - Media Integration and Communication Center,
 % University of Florence. Giuseppe Lisanti <giuseppe.lisanti@unifi.it> and
 % Iacopo Masi <iacopo.masi@unifi.it>.
+% 
+% If you use this code please cite:
+%
+% @article{lisanti:icdsc14,
+% author = {Lisanti, Giuseppe and Masi, Iacopo and {Del Bimbo}, Alberto},
+% title = {Matching People across Camera Views using Kernel Canonical Correlation Analysis},
+% booktitle = {Eighth ACM/IEEE International Conference on Distributed Smart Cameras},
+% year = {2014}, }
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Attempting to automatically download third-party libraries
