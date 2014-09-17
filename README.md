@@ -12,9 +12,7 @@ You need the following software to run the code:
 
 
 ## Demo Example
-To run our code just run:
-	%this will run the experiment
-	demoKCCA
+To run our code just run _demo_reid_kcca.m_
 	
 You can change the dataset and enable CCA comparison with the following parameters:
 
