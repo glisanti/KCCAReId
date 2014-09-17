@@ -55,8 +55,8 @@ and Hardoon's paper:
 author = {Hardoon, David and Szedmak, Sandor and {Shawe-Taylor}, John},
 title = {Canonical Correlation Analysis: An Overview with Application to Learning Methods},
 booktitle = {Neural Computation},
-volume = {Volume 16 (12)}
-pages = {2639--2664}
+volume = {Volume 16 (12)},
+pages = {2639--2664},
 year = {2004}, }
 ```
 
