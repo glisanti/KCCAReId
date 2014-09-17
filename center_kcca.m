@@ -1,5 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% (c) Copyright 2012-14  Anonymous Authors ICDSC14 #23
+% (c) Copyright 2013-14  MICC - Media Integration and Communication Center,
+% University of Florence. Giuseppe Lisanti <giuseppe.lisanti@unifi.it> and
+% Iacopo Masi <iacopo.masi@unifi.it>.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [train_a_ker,test_a_ker,train_b_ker,test_b_ker] = center_kcca(train_a_ker,test_a_ker,train_b_ker,test_b_ker)

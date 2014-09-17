@@ -1,3 +1,15 @@
+% Modified version from David R. Hardoon
+%
+% http://www.davidroihardoon.com/Professional/Code_files/cca.m
+%
+% @article{hardoon:cca,
+% author = {Hardoon, David and Szedmak, Sandor and {Shawe-Taylor}, John},
+% title = {Canonical Correlation Analysis: An Overview with Application to Learning Methods},
+% booktitle = {Neural Computation},
+% volume = {Volume 16 (12)},
+% pages = {2639--2664},
+% year = {2004} }
+
 function [Wx, Wy, r] = cca(X,Y,k)
 
 % CCA calculate canonical correlations
