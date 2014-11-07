@@ -1,6 +1,6 @@
 if ~exist('data/VIPeR_split.mat','file')
    disp('>Downloading and Unzipping Splits and Descriptors');
-   unzip('http://www.micc.unifi.it/lisanti/wp-content/plugins/download-monitor/download.php?id=3');
+   unzip('http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip');
    disp('>Splits and Descriptors ready.')
 end
 if ~exist('kcca_package','dir')
