@@ -35,6 +35,29 @@ and you will get something like this:
 	>Evaluating results...
 	>Computing Trial 2...
 
+## Person Representation (Improved WHOS descriptor)
+
+For representing a person we improved the _WHOS descriptor_ presented
+in [2]. For the first part of the descriptor (color histograms),
+please see the details in [2]. (The only different from [2] is that
+here we used a non-isotropic Gaussian kernel).
+
+For the second part of the descriptor (HoG + LBP) you can find here
+some details to re-implement the feature:
+
+**HoG**: to compute HoG descriptor we quantized the gradients in 4
+bins, pooling 8 px per cell, using block 2x2, no 360 degree, and
+cutting at 1 for normalization. We computed this in the _window_
+parameter specified below.
+
+**LBP**: to compute LBP descriptor, we used the _window_ parameter
+specified below, quantizing LBP codes using vl_feat code, building an
+LBP histogram for each patch 16x16 px (thus cellSize 16px).
+
+Note that both the descriptors are computed on a specific _window_ of
+the person image (resized to 128x64). This _window_ corresponds to
+remove 8 px for each side and so computing the descriptor in a window
+that is [9:120,9:56].
 
 
 ## Citation
@@ -65,6 +88,8 @@ year = {2004}, }
 ## References
 
 [1] Giuseppe Lisanti , Iacopo Masi , Alberto Del Bimbo, Matching People across Camera Views using Kernel Canonical Correlation Analysis”, Eighth ACM/IEEE International Conference on Distributed Smart Cameras, 2014.
+
+[2] G. Lisanti, I. Masi, A. D. Bagdanov, and A. Del Bimbo, "Person Re-identification by Iterative Re-weighted Sparse Ranking", IEEE Transactions on Pattern Analysis and Machine Intelligence 2014.
 
 ##License
 KCCA-ReId code is Copyright (c) 2014 of  Giusppe Lisanti and Iacopo Masi *\<giuseppe.lisanti, iacopo.masi\>@unifi.it*.
