@@ -39,19 +39,19 @@ and you will get something like this:
 
 For representing a person we improved the _WHOS descriptor_ presented
 in [2]. For the first part of the descriptor (color histograms),
-please see the details in [2]. (The only different from [2] is that
+please see the details in [2]. (The only difference from [2] is that
 here we used a non-isotropic Gaussian kernel).
 
-For the second part of the descriptor (HoG + LBP) you can find here
+For the second part of the descriptor (HOG + LBP) you can find here
 some details to re-implement the feature:
 
-**HoG**: to compute HoG descriptor we quantized the gradients in 4
+**HOG**: to compute HOG descriptor we quantized the gradients in 4
 bins, pooling 8 px per cell, using block 2x2, no 360 degree, and
 cutting at 1 for normalization. We computed this in the _window_
 parameter specified below.
 
 **LBP**: to compute LBP descriptor, we used the _window_ parameter
-specified below, quantizing LBP codes using vl_feat code, building an
+specified below, quantizing LBP codes using [vl_feat code](http://www.vlfeat.org/matlab/vl_lbp.html), building an
 LBP histogram for each patch 16x16 px (thus cellSize 16px).
 
 Note that both the descriptors are computed on a specific _window_ of
