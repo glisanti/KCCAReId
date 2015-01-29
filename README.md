@@ -40,7 +40,7 @@ and you will get something like this:
 For representing a person we improved the _WHOS descriptor_ presented
 in [2]. For the first part of the descriptor (color histograms),
 please see the details in [2]. (The only difference from [2] is that
-here we used a non-isotropic Gaussian kernel).
+here we used a non-isotropic Gaussian kernel). Please see a video animation [here](http://www.micc.unifi.it/lisanti/source-code/whos/).
 
 For the second part of the descriptor (HOG + LBP) you can find here
 some details to re-implement the feature:
