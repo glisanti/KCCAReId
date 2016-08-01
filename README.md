@@ -8,11 +8,13 @@ We provided the implementation of the paper  _Giuseppe Lisanti , Iacopo Masi , A
 ##Requirements 
 You need the following software to run the code:
 
-1. MATLAB (Windows, Unix version is the same)
-2. [Hardoon KCCA code package.](http://www.davidroihardoon.com/Professional/Code_files/kcca_package.tar.gz) (4.3 KB)
+1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
+2. [Dr. Hardoon's KCCA code package.](http://www.davidroihardoon.com/) (4.3 KB)
 3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) (229 MB)
 
-**Please, note that the code is automatically attempting to download third-party libraries and data.**
+**Aug. 2016: It seems that the link to the KCCA package from Hardoon is not publicly available anymore on his website. If you want to run our approach your have to manually request his code dropping an email to [Dr. Hardoon](http://www.davidroihardoon.com/).**
+
+~~Sept. 2014: Please, note that the code is automatically attempting to download third-party libraries and data.~~
 
 ## Demo Example
 To run our code just run _demo_reid_kcca.m_
@@ -58,6 +60,12 @@ Note that both the descriptors are computed on a specific _window_ of
 the person image (resized to 128x64). This _window_ corresponds to
 remove 8 px for each side and so computing the descriptor in a window
 that is [9:120,9:56].
+
+## Changelog
+
+* 1.2 Aug. 2016 - Added pointer to new Hardoon's website for KCCA package.
+* 1.1 Jan. 2015 - Added more information on WHOS descriptor
+* 1.0 Sept. 2014 - Inital Release
 
 
 ## Citation
