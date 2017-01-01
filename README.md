@@ -70,7 +70,7 @@ that is [9:120,9:56].
 
 ## Citation
 
-Please cite our paper with the following bibtex if you use our dataset:
+Please cite our paper with the following bibtex if you use our code:
 
 ``` latex
 @article{lisanti:icdsc14,
