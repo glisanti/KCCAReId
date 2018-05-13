@@ -13,7 +13,7 @@ You need the following software to run the code:
 
 1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
 2. [Dr. Hardoon's KCCA code package.](http://www.davidroihardoon.com/) (4.3 KB)
-3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](http://www.micc.unifi.it/lisanti/downloads/kccareid_data.zip) (229 MB)
+3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](https://www.dropbox.com/s/e0bm0rzsu3fctja/kccareid_data.zip?dl=0) (229 MB)
 
 **Aug. 2016: It seems that the link to the KCCA package from Hardoon is not publicly available anymore on his website. If you want to run our approach your have to manually request his code dropping an email to [Dr. Hardoon](http://www.davidroihardoon.com/).**
 
@@ -45,7 +45,7 @@ and you will get something like this:
 For representing a person we improved the _WHOS descriptor_ presented
 in [2]. For the first part of the descriptor (color histograms),
 please see the details in [2]. (The only difference from [2] is that
-here we used a non-isotropic Gaussian kernel). Please see a video animation [here](http://www.micc.unifi.it/lisanti/source-code/whos/).
+here we used a non-isotropic Gaussian kernel). Please see a video animation [here](https://github.com/glisanti/WHOS/).
 
 For the second part of the descriptor (HOG + LBP) you can find here
 some details to re-implement the feature:
