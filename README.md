@@ -8,7 +8,7 @@ We provided the implementation of the paper  _Giuseppe Lisanti , Iacopo Masi , A
 
 ![KCCA-ReId](http://www.micc.unifi.it/masi/kcca.png)
 
-##Requirements 
+## Requirements 
 You need the following software to run the code:
 
 1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
