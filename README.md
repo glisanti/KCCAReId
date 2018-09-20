@@ -13,7 +13,7 @@ You need the following software to run the code:
 
 1. [MATLAB (Windows, Unix version is the same)](http://www.mathworks.com/products/matlab/)
 2. [Dr. Hardoon's KCCA code package.](http://www.davidroihardoon.com/) (4.3 KB)
-3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](https://www.dropbox.com/s/e0bm0rzsu3fctja/kccareid_data.zip?dl=0) (229 MB)
+3. [Descriptors computed as described in the paper for the VIPeR and PRID dataset.](https://drive.google.com/file/d/1FYc9olbf1mP5kCMkRvy0_YY4LIxS6PlJ/view?usp=sharing) (229 MB)
 
 **Aug. 2016: It seems that the link to the KCCA package from Hardoon is not publicly available anymore on his website. If you want to run our approach your have to manually request his code dropping an email to [Dr. Hardoon](http://www.davidroihardoon.com/).**
 
